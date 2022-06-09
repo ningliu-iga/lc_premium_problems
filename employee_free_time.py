@@ -26,6 +26,20 @@ class Solution:
             if i < len(schedule[eid]) - 1:
                 heapq.heappush(minheap, (schedule[eid][i + 1].start, eid, i + 1))
         return res
+
+
+    # sweep line + sorting, O(mlogm) time, O(m) space, not efficient compared to the minheap solution
+    def employeeFreeTime1(self, schedule: List[List[Interval]]):
+        res = []
+        work = [(emp_i.start, eid, i) for eid, emp in enumerate(schedule) for i, emp_i in enumerate(emp)]
+        work.sort()
+        last_end = -1
+        for t, eid, i in work:
+            if 0 <= last_end < t:
+                res.append([last_end, t])
+            last_end = max(last_end, schedule[eid][i].end)
+        return res
+    
         
 
 if __name__ == '__main__':
