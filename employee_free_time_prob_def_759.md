@@ -1,5 +1,5 @@
 # 759. Employee Free Time
-HARD
+Hard
 
 We are given a list schedule of employees, which represents the working time for each employee.
 Each employee has a list of non-overlappingIntervals, and these intervals are in sorted order.
