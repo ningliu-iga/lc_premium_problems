@@ -13,6 +13,6 @@ Output:
 ## Example 2:
 Input:
  [[7,10],[2,4]]
-​
+ 
 Output:
  true
