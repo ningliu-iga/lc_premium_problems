@@ -1,5 +1,5 @@
 # LC Premium Problems w/ Solutions
- 252. Meeting Rooms
- 253. Meeting Rooms II
- 759. Employee Free Time
- 256. Paint House
+Meeting Rooms - 252, Easy
+Meeting Rooms II - 253, Medium
+Employee Free Time - 759, Hard
+Paint House - 256, Medium
