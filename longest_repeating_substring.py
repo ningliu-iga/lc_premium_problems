@@ -2,7 +2,8 @@ from typing import List
 
 
 class Solution:
-    # brute force: O(n^3) time, bc two loops and one string slicing, O(n^2) space b/o the set
+    # brute force: check if every substring involving the rightmost letter has been seen before, if not, add it to the seen set.
+	# O(n^3) time, bc two loops and one string slicing, O(n^2) space b/o the set
     def longestRepeatingSubstring1(self, s: str) -> int:
 
         seen = set()
