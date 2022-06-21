@@ -34,7 +34,7 @@ class Solution:
 
         # simple improvement of space complexity from O(n^2) to O(n): instead of storing the substrings, we can store
         # the hash value of the string.
-        def findRepeatingSubstr(length):
+        def findRepeatingSubstr1(length):
             seen = set()
             for i in range(n - length + 1):
                 h = hash(s[i:i + length])
@@ -42,6 +42,23 @@ class Solution:
                     return True
                 seen.add(h)
             return False
+		
+		# further improvement to remove string slicing using polynomial rolling hashing, so time complexity becomes
+        # O(nlogn)
+        def findRepeatingSubstr(length):
+            seen = set()
+            h = 0
+            for i in range(length):
+                h = h * 26 + nums[i]
+            seen.add(h)
+            for i in range(1, n - length + 1):
+                h = h * 26 - nums[i - 1] * 26 ** length + nums[i - 1 + length]
+                if h in seen:
+                    return True
+                seen.add(h)
+            return False
+
+        nums = [ord(c) - ord('a') for c in s]
         n = len(s)
         l, r = 0, n - 1
         while l < r:
