@@ -45,6 +45,10 @@ class Solution:
 		
 		# further improvement to remove string slicing using polynomial rolling hashing, so time complexity becomes
         # O(nlogn)
+		# for rolling hash, we first need to convert characters to digits and store them in nums using ord() to find
+		# the unicode of the character, then the hashing of the current window [d1, d2, d3] is: 
+		# h=d1*26**(length-1)+d2*26**(length-2)+d3*26**(length-3), to update h, we need to remove the first item and add the new item.
+		# we then check if this hashing is in seen.
         def findRepeatingSubstr(length):
             seen = set()
             h = 0
