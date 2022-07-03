@@ -11,3 +11,5 @@ Moving Average from Data Stream - 346, Easy
 
 Paint House - 256, Medium
 
+Zigzag Iterator - 281, Medium
+
