@@ -1,4 +1,4 @@
-# 256. Paint House
+# 281. Zigzag Iterator
 Medium
 
 Given two 1d vectors, implement an iterator to return their elements alternately.
