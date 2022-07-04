@@ -1,6 +1,8 @@
 # 281. Zigzag Iterator
 Medium
 
+Company: Amazon, Apple, Cruise Automation, Facebook, Google
+
 Given two 1d vectors, implement an iterator to return their elements alternately.
 
 ## Example 1
