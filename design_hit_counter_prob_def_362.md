@@ -1,4 +1,4 @@
-# 1429. First Unique Number
+# 362. Design Hit Counter
 Medium
 
 Company: Adobe, Amazon, Apple, Bloomberg, Booking.com, Dropbox, Google, Indeed, Linkedin, Microsoft, Oracle, Pinterest, Quip (Salesforce), Snapchat, Uber, Visa, Yahoo, Zillow
