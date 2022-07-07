@@ -7,6 +7,8 @@ First Unique Number - 1429, Medium
 
 Longest Repeating Substring - 1062, Medium
 
+Max Stack - 716, Hard
+
 Meeting Rooms - 252, Easy
 
 Meeting Rooms II - 253, Medium
