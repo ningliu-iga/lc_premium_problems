@@ -7,6 +7,8 @@ Employee Free Time - 759, Hard
 
 First Unique Number - 1429, Medium
 
+High Five - 1086, Easy
+
 Longest Repeating Substring - 1062, Medium
 
 Max Stack - 716, Hard
