@@ -13,6 +13,8 @@ Longest Repeating Substring - 1062, Medium
 
 Max Stack - 716, Hard
 
+Maximum Average Subarray II - 644, Hard
+
 Meeting Rooms - 252, Easy
 
 Meeting Rooms II - 253, Medium
