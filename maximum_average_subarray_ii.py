@@ -29,7 +29,7 @@ class Solution:
                 l = m
             else:
                 r = m
-        return l
+        return round(l, 5)
 
 
 if __name__ == '__main__':
