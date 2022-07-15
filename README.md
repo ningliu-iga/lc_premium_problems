@@ -1,4 +1,6 @@
 # LC Premium Problems w/ Solutions in alphabetical order
+Cutting Ribbons - 1891, Medium
+
 Design Hit Counter - 362, Medium
 
 Design Tic-Tac-Toe - 348, Medium
