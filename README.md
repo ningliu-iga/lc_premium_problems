@@ -7,6 +7,8 @@ Design Tic-Tac-Toe - 348, Medium
 
 Employee Free Time - 759, Hard
 
+Find the Celebrity - 277, Medium
+
 First Unique Number - 1429, Medium
 
 High Five - 1086, Easy
