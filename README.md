@@ -15,6 +15,8 @@ High Five - 1086, Easy
 
 Longest Repeating Substring - 1062, Medium
 
+Longest Substring with At Most K Distinct Characters - 340, Medium
+
 Max Stack - 716, Hard
 
 Maximum Average Subarray II - 644, Hard
